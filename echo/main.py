@@ -9,6 +9,7 @@ from button_handlers import button_request_errors_handler,\
     button_request_status_handler, \
     button_request_rtp_handler, \
     button_request_vf_handler
+import urllib3
 
 def main():
     bot = Bot(
@@ -32,4 +33,11 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
+    print('Бот запущен')
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+    # c = pycurl.Curl()
+    # c.setopt(c.URL, 'https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=196673667&text=privet%20ti%20pidor')
+
+    # r = requests.get('https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=-560181672&text=privet%20ti%20pidor',verify=False)
     main()

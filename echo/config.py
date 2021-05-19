@@ -1,5 +1,7 @@
-TG_TOKEN="1197585489:AAG75QBMWXyZaJMwNYSkA4gUMpiex0s3qcY"
-TG_API_URL = "https://telegg.ru/orig/bot"
+TG_TOKEN="1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY"
+TG_API_URL = "https://api.telegram.org/bot"
+
+# TG_API_URL = "http://localhost:8012/"
 ADMIN_ID = 196673667
 button_help_text = 'Помощь'
 button_request_errors_text = 'Ошибки'
