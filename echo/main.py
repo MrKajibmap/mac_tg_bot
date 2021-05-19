@@ -35,9 +35,12 @@ def main():
 if __name__ == '__main__':
     print('Бот запущен')
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    import requests
+
+    # requests.get('https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=196673667&text=privet%20ti%20pidor')
 
     # c = pycurl.Curl()
     # c.setopt(c.URL, 'https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=196673667&text=privet%20ti%20pidor')
 
-    # r = requests.get('https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=-560181672&text=privet%20ti%20pidor',verify=False)
+    r = requests.get('https://api.telegram.org/bot1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY/sendMessage?chat_id=-560181672&text=privet%20ti%20pidor',verify=False)
     main()
