@@ -1,6 +1,5 @@
-TG_TOKEN="1819897875:AAFybj5a677adMYh9AP6O5Av7AN887WsjHY"
+TG_TOKEN="1819897875:AAHenY2OetQTKRLyxmWwp7_CRKNSazq15eo"
 TG_API_URL = "https://api.telegram.org/bot"
-
 # TG_API_URL = "http://localhost:8012/"
 ADMIN_ID = 196673667
 button_help_text = 'Помощь'
